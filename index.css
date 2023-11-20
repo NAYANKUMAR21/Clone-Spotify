@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: auto;
+  max-width: 1500px;
+  margin: auto;
+  border: 1px solid white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(40, 39, 39, 1) 88%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.image-logo {
+  width: 50%;
+  border: 1px solid white;
+
+  margin: auto;
+}
+#container {
+  height: 100vh;
+}
+#Upper-Div {
+  display: flex;
+  height: 100vh;
+}
+#Upper-Div > div:nth-child(1) {
+  width: 20%;
+
+  height: 100%;
+}
+#Upper-Div > div:nth-child(2) {
+  width: 80%;
+
+  height: 100%;
+}
+.inner-left {
+  background-color: black;
+}
+.inner-left > div:nth-child(1) {
+  width: 70%;
+  margin: auto;
+  margin: 20px;
+}
+
+.text-with-icons > div {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.text-with-icons > div > div {
+  width: 10%;
+
+  margin-left: 30px;
+}
+.text-with-icons > div > p {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.mid-section {
+  margin-top: 30px;
+}
+.bottom-section,
+.install-App-section {
+  margin-left: 45px;
+  margin-top: 30px;
+}
+.bottom-section > div {
+  margin-top: 15px;
+}
+.install-App-section {
+  display: flex;
+}
+.install-App-section > p {
+  margin-top: 2px;
+  margin-left: 15px;
+}
+.install-App-section > div {
+  width: 10%;
+}
+
+/* Right Side With Div Section */
+.inner-right > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.inner-right > div:nth-child(1) > div {
+  width: 10%;
+}
+.inner-right > div:nth-child(1) > div:nth-child(1) > img {
+  width: 50%;
+  height: 30px;
+}
+.salutation-section {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+.salutation-section > p {
+  font-size: 35px;
+  font-weight: 540;
+  letter-spacing: 1px;
+}
+/* Playlist Section */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 95%;
+  margin: auto;
+}
+.Playlist > div {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgb(0, 55, 55);
+}
+.Playlist > div > div:nth-child(2) > p {
+  font-size: 16px;
+  padding: 0px;
+}
+.Playlist > div > div:nth-child(1) > img {
+  width: 80%;
+}
+/* Right Bottom Most Section */
+.bottom-Container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+}
+.bottom-Container > div {
+  padding: 5px;
+  background-color: rgb(0, 55, 55);
+  border-radius: 8px;
+}
+.info-div > div:nth-child(1) {
+  width: 90%;
+  margin: auto;
+  height: 180px;
+  margin-top: 10px;
+}
+.info-div > div:nth-child(2) {
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+
+  margin-top: 10px;
+}
+
+.info-div > div:nth-child(3) {
+  width: 90%;
+  margin: auto;
+  font-size: 13px;
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* Music Player */
+#Bottom-Div {
+  background-color: black;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  padding: 0px 10px 0px 10px;
+}
+#Bottom-Div > div:nth-child(1) {
+  width: 15%;
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+}
+.left > div:nth-child(1) {
+  width: 40%;
+  height: 80px;
+}
+.left > div:nth-child(2) {
+  font-size: 15px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+  padding-left: 10px;
+}
+.left > div:nth-child(3) {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+.middle {
+  width: 40%;
+
+  margin: auto;
+}
+.right {
+  width: 15%;
+  height: 25px;
+  margin-top: 20px;
+}
